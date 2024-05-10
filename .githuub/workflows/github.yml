@@ -1,0 +1,13 @@
+name: Windows CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: [Test1]
+    steps:
+      - name: Print Test1 test
+        run: Write-Output "Hello World"
